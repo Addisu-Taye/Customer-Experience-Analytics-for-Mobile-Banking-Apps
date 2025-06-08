@@ -1,0 +1,27 @@
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Bytecode
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data
+/data/*.csv
+# Models
+/models/*.bin
+# Plots
+/plots/
+
+# Environment
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
