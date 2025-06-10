@@ -11,12 +11,10 @@ __pycache__/
 # Notebooks
 .ipynb_checkpoints/
 
-# Data
-/data/*.csv
+
 # Models
 /models/*.bin
-# Plots
-/plots/
+
 
 # Environment
 .env
