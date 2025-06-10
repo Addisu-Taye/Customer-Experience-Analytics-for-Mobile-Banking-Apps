@@ -7,6 +7,7 @@ My approach combines **web scraping**, **natural language processing (NLP)**, **
 
 - Reviews, ratings, dates, and app names for **CBE**, **BOA**, and **Dashen Bank** applications are collected from the Google Play Store.
 - A **minimum target of 400 reviews per bank** (1,200 total) ensures robust data for analysis.
+- **The initial scraping methodology utilizes the google-play-scraper library.** The scrape_reviews function iterates through a dictionary of bank names and their corresponding Google Play Store application IDs. For each app, it fetches a specified number of the newest reviews, extracting the review content, rating, and date. This data is then compiled into a Pandas DataFrame for further processing.
 
 ### Data Preprocessing & Cleaning Pipeline
 
